@@ -17,7 +17,7 @@ cursor = connection.cursor()
 
 #create table
 table_info ="""
-Create table STUDENT(ID INT,NAME VARCHAR(25),YEAR VARCHAR(25),
+Create table if not exists STUDENT(ID INT,NAME VARCHAR(25),YEAR VARCHAR(25),
 GROUPS VARCHAR(25),MARKS INT);
 
 """
