@@ -8,8 +8,6 @@ import google.generativeai as genai
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
-import sqlite3
-
 
 #Connect to sqlite
 connection=sqlite3.connect("student.db")
